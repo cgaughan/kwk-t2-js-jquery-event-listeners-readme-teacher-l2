@@ -6,9 +6,9 @@ function getIt () {
 }
 
 function frameIt () {
-  $(".tasty").load(function() {
-    $("img").addClass("tasty");
-  });
+  //$(".tasty").load(function() {
+    $("img").load(".tasty");
+//  });
 }
 
 
